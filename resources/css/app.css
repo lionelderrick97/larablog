@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .card{
+        @apply shadow-md text-slate-700 bg-white my-5 px-5 py-10 rounded-md;
+    }
+
+    .formfields{
+        @apply w-full my-2 border-solid border-slate-200 border-2  p-3 mt-1 leading-tight font-medium rounded-lg;
+    }
+}
+
+body{
+    @apply bg-slate-100;
+}
+
